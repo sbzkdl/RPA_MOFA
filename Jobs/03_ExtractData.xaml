@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>698,4167</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1205,4599</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>_02_ExtractData_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -116,7 +116,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_03_ExtractData" sap:VirtualizedContainerService.HintSize="708,4102" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_03_ExtractData" sap:VirtualizedContainerService.HintSize="772,4534" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="bl확인1" />
       <Variable x:TypeArguments="x:Boolean" Name="bl확인2" />
@@ -126,39 +126,39 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="646,181" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Extract Data Strat. .&quot;]" />
-    <uix:NApplicationCard sap2010:Annotation.AnnotationText="" AttachMode="ByInstance" DisplayName="Use Browser Chrome: 외교부 홈페이지에 오신것을 환영합니다." sap:VirtualizedContainerService.HintSize="646,3669" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V2" WindowResize="Maximize">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="710,183" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Extract Data Strat. .&quot;]" />
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="" AttachMode="ByInstance" DisplayName="Use Browser Chrome: 외교부 홈페이지에 오신것을 환영합니다." sap:VirtualizedContainerService.HintSize="710,4097" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="612,3412" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="676,3839" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="550,2552" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="614,2944" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <TryCatch.Try>
-                <Sequence sap:VirtualizedContainerService.HintSize="512,2284" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence sap:VirtualizedContainerService.HintSize="512,2294" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '정보공개'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Timeout="2" Version="V3">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '정보공개'" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Timeout="2" Version="V3">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/main.do" DesignTimeRectangle="1166, 251, 119, 85" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='정보공개' parentid='gnb' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='정보공개' parentid='gnb' tag='A' type='' class='' check:innerText='정보공개' /&gt;" Guid="502554cb-9818-4ce3-a642-779dfdad4609" InformativeScreenshot="8317101979b7deb8c1cce88fb82f7983.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='| 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '사전정보공표'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '사전정보공표'" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/wpge/m_20526/contents.do" DesignTimeRectangle="250, 478, 280, 58" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='*사전정보공표*' class='menu_btn' parentid='wrapper' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='*사전정보공표*' class='menu_btn' parentid='wrapper' tag='A' type='' check:text='사전정보공표' /&gt;" Guid="df1bc47e-42b7-4b7a-b76e-ba1e66d704eb" InformativeScreenshot="29cc640aeb13905c2f6939eae8c21cc2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='제도소개 | 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '세입세출예산운용상황'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '세입세출예산운용상황'" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/wpge/m_20526/contents.do" DesignTimeRectangle="289, 644, 139, 22" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='*세입세출예산운용상황*' parentid='wrapper' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='*세입세출예산운용상황*' parentid='wrapper' tag='A' type='' class='' check:text='세입세출예산운용상황' /&gt;" Guid="93027390-9a3d-4fc0-9ac2-b42b800177fc" InformativeScreenshot="e3c4087d8ff4dbd847be227ffa6ba03b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='제도소개 | 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                     </uix:NClick.Target>
@@ -175,19 +175,19 @@
                       </ui:Target>
                     </ui:UiElementExists.Target>
                   </ui:UiElementExists>
-                  <If Condition="[bl확인1]" sap:VirtualizedContainerService.HintSize="450,565" sap2010:WorkflowViewState.IdRef="If_9">
+                  <If Condition="[bl확인1]" sap:VirtualizedContainerService.HintSize="450,568" sap2010:WorkflowViewState.IdRef="If_9">
                     <If.Then>
-                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,287" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="Sequence_24">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,202" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,203" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
                       </Sequence>
                     </If.Then>
                     <If.Else>
-                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,100" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,101" sap2010:WorkflowViewState.IdRef="Sequence_25">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -196,7 +196,7 @@
                       </Sequence>
                     </If.Else>
                   </If>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '월별세출집행현황'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '월별세출집행현황'" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/pgm/m_20534/uss/anlrveexptr/mnbyLev.do" DesignTimeRectangle="955, 597, 349, 50" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='월별세출집행현황' parentid='wrapper' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='월별세출집행현황' parentid='wrapper' tag='SPAN' type='' class='' check:innerText='월별세출집행현황' /&gt;" Guid="f02ebea7-b20e-457c-a725-fc8a3ebcf3ee" InformativeScreenshot="213f06ae8122a6cf9d465464ba75e2e4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='월별세입징수현황 | 세입세출예산운용상황 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                     </uix:NClick.Target>
@@ -213,19 +213,19 @@
                       </ui:Target>
                     </ui:UiElementExists.Target>
                   </ui:UiElementExists>
-                  <If Condition="[bl확인2]" sap:VirtualizedContainerService.HintSize="450,550" sap2010:WorkflowViewState.IdRef="If_10">
+                  <If Condition="[bl확인2]" sap:VirtualizedContainerService.HintSize="450,553" sap2010:WorkflowViewState.IdRef="If_10">
                     <If.Then>
-                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,287" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="Sequence_26">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,202" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,203" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
                       </Sequence>
                     </If.Then>
                     <If.Else>
-                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,100" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,101" sap2010:WorkflowViewState.IdRef="Sequence_27">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -237,10 +237,10 @@
                 </Sequence>
               </TryCatch.Try>
               <TryCatch.Catches>
-                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="516,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="580,2738" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
@@ -248,14 +248,14 @@
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                     </ActivityAction.Argument>
-                    <Sequence sap:VirtualizedContainerService.HintSize="512,334" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <Sequence sap:VirtualizedContainerService.HintSize="574,2667" sap2010:WorkflowViewState.IdRef="Sequence_6">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '외교부'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '외교부'" sap:VirtualizedContainerService.HintSize="512,198" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/index.do" DesignTimeRectangle="498, 773, 300, 75" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='active wow fadeInUp' aaname='외교부' check:innerText='외교부' /&gt;" Guid="4ed97142-c788-4346-9509-547f39fe4e1f" ImageBase64="" InformativeScreenshot="1f098ff708fee9172a92178056aa0bda.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='외교부 홈페이지에 오신것을 환영합니다.' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -266,29 +266,29 @@
                           </uix:TargetAnchorable>
                         </uix:NClick.Target>
                       </uix:NClick>
-                      <Sequence sap:VirtualizedContainerService.HintSize="450,50" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                      <Sequence sap:VirtualizedContainerService.HintSize="512,2382" sap2010:WorkflowViewState.IdRef="Sequence_49">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '정보공개'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NClick_33" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '정보공개'" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="NClick_33" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/main.do" DesignTimeRectangle="1166, 251, 119, 85" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='정보공개' parentid='gnb' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='정보공개' parentid='gnb' tag='A' type='' class='' check:innerText='정보공개' /&gt;" Guid="502554cb-9818-4ce3-a642-779dfdad4609" InformativeScreenshot="8317101979b7deb8c1cce88fb82f7983.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='| 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '사전정보공표'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NClick_34" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '사전정보공표'" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="NClick_34" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/wpge/m_20526/contents.do" DesignTimeRectangle="250, 478, 280, 58" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='*사전정보공표*' class='menu_btn' parentid='wrapper' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='*사전정보공표*' class='menu_btn' parentid='wrapper' tag='A' type='' check:text='사전정보공표' /&gt;" Guid="df1bc47e-42b7-4b7a-b76e-ba1e66d704eb" InformativeScreenshot="29cc640aeb13905c2f6939eae8c21cc2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='제도소개 | 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '세입세출예산운용상황'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NClick_35" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '세입세출예산운용상황'" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="NClick_35" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/wpge/m_20526/contents.do" DesignTimeRectangle="289, 644, 139, 22" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='*세입세출예산운용상황*' parentid='wrapper' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='*세입세출예산운용상황*' parentid='wrapper' tag='A' type='' class='' check:text='세입세출예산운용상황' /&gt;" Guid="93027390-9a3d-4fc0-9ac2-b42b800177fc" InformativeScreenshot="e3c4087d8ff4dbd847be227ffa6ba03b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='제도소개 | 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <ui:UiElementExists DisplayName="Element Exists 'push button  확인'" Exists="[bl확인1]" sap:VirtualizedContainerService.HintSize="450,147" sap2010:WorkflowViewState.IdRef="UiElementExists_12">
+                        <ui:UiElementExists sap2010:Annotation.AnnotationText="Click 시뮬레이트&#xD;&#xA;&#xD;&#xA;준비 대기" DisplayName="Element Exists 'push button  확인'" Exists="[bl확인1]" sap:VirtualizedContainerService.HintSize="450,207" sap2010:WorkflowViewState.IdRef="UiElementExists_12">
                           <ui:UiElementExists.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="258c1e04-0a8b-4b05-9b63-3a9800cf469a" InformativeScreenshot="b45f50827667f789903a78e8d6e2690a" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='월별세입징수현황 | 세입세출예산운용상황 외교부 - Chrome' /&gt;&lt;ctrl name='www.mofa.go.kr 내용:' role='dialog' /&gt;&lt;ctrl name='확인' role='push button' /&gt;">
                               <ui:Target.TimeoutMS>
@@ -299,20 +299,25 @@
                               </ui:Target.WaitForReady>
                             </ui:Target>
                           </ui:UiElementExists.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
                         </ui:UiElementExists>
-                        <If Condition="[bl확인1]" sap:VirtualizedContainerService.HintSize="450,565" sap2010:WorkflowViewState.IdRef="If_11">
+                        <If Condition="[bl확인1]" sap:VirtualizedContainerService.HintSize="450,568" sap2010:WorkflowViewState.IdRef="If_11">
                           <If.Then>
-                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,287" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="Sequence_42">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,202" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_9" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,203" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_9" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
                             </Sequence>
                           </If.Then>
                           <If.Else>
-                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,100" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,101" sap2010:WorkflowViewState.IdRef="Sequence_43">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -321,7 +326,7 @@
                             </Sequence>
                           </If.Else>
                         </If>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '월별세출집행현황'" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="NClick_36" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '월별세출집행현황'" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="NClick_36" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/pgm/m_20534/uss/anlrveexptr/mnbyLev.do" DesignTimeRectangle="955, 597, 349, 50" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='월별세출집행현황' parentid='wrapper' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='월별세출집행현황' parentid='wrapper' tag='SPAN' type='' class='' check:innerText='월별세출집행현황' /&gt;" Guid="f02ebea7-b20e-457c-a725-fc8a3ebcf3ee" InformativeScreenshot="213f06ae8122a6cf9d465464ba75e2e4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='월별세입징수현황 | 세입세출예산운용상황 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
                           </uix:NClick.Target>
@@ -338,19 +343,19 @@
                             </ui:Target>
                           </ui:UiElementExists.Target>
                         </ui:UiElementExists>
-                        <If Condition="[bl확인2]" sap:VirtualizedContainerService.HintSize="450,550" sap2010:WorkflowViewState.IdRef="If_12">
+                        <If Condition="[bl확인2]" sap:VirtualizedContainerService.HintSize="450,553" sap2010:WorkflowViewState.IdRef="If_12">
                           <If.Then>
-                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,287" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="Sequence_46">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,202" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,203" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
                             </Sequence>
                           </If.Then>
                           <If.Else>
-                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,100" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,101" sap2010:WorkflowViewState.IdRef="Sequence_47">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -365,7 +370,7 @@
                 </Catch>
               </TryCatch.Catches>
             </TryCatch>
-            <uix:NSelectItem DisplayName="Select Item 'SELECT FSCL_YY'" sap:VirtualizedContainerService.HintSize="550,197" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[&quot;*&quot; + in_strYear + &quot;*&quot;]" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+            <uix:NSelectItem DisplayName="Select Item 'SELECT FSCL_YY'" sap:VirtualizedContainerService.HintSize="614,198" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[&quot;*&quot; + in_strYear + &quot;*&quot;]" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="9">
                   <x:String>2015년</x:String>
@@ -383,7 +388,7 @@
                 <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/pgm/m_20535/uss/anlrveexptr/mnbyExcut.do" DesignTimeRectangle="1401, 752, 97, 38" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='FSCL_YY' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='FSCL_YY' tag='SELECT' type='' class='' aaname='년도 선택' /&gt;" Guid="f1ae193f-d837-4975-b01b-5778844cbc93" InformativeScreenshot="b55916f10e0a94efa0db294000e1da79.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='월별세출집행현황 | 세입세출예산운용상황 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NSelectItem DisplayName="Select Item '2월'" sap:VirtualizedContainerService.HintSize="550,197" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[&quot;*&quot; + in_TransactionItem + &quot;*&quot;]" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+            <uix:NSelectItem DisplayName="Select Item '2월'" sap:VirtualizedContainerService.HintSize="614,198" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[&quot;*&quot; + in_TransactionItem + &quot;*&quot;]" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="12">
                   <x:String>1월</x:String>
@@ -404,15 +409,20 @@
                 <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/pgm/m_20535/uss/anlrveexptr/mnbyExcut.do" DesignTimeRectangle="1505, 552, 79, 38" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='EXE_M' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='EXE_M' tag='SELECT' type='' class='' aaname='월 선택' /&gt;" Guid="109461e9-de6a-4a53-bece-b46c3f7d6d70" InformativeScreenshot="dd1a2635cacda0651b861cc397179506.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='월별세출집행현황 | 세입세출예산운용상황 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '검색'" sap:VirtualizedContainerService.HintSize="550,197" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '검색'" sap:VirtualizedContainerService.HintSize="614,198" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.mofa.go.kr/www/pgm/m_20535/uss/anlrveexptr/mnbyExcut.do" CvElementArea="1588, 748, 83, 44" CvTextArea="1614, 762, 32, 19" CvTextArgument="74" CvType="Button" DesignTimeRectangle="1590, 751, 80, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='contents' tag='BUTTON' aaname='검색' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='contents' tag='BUTTON' aaname='검색' type='button' class='btn2' check:text='검색' /&gt;" Guid="bc8c5068-a1bb-4551-8986-c3a3feabf435" InformativeScreenshot="7d2a4d3222b777e893658336a86cbabe.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='월별세출집행현황 | 세입세출예산운용상황 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[out_dtOrigin]" DelayBefore="1" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='연도' ReferenceIdx='0' Name='연도'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='월' ReferenceIdx='1' Name='월'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='회계' ReferenceIdx='2' Name='회계' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='분야' ReferenceIdx='3' Name='분야' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='부문' ReferenceIdx='4' Name='부문' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='프로그램' ReferenceIdx='5' Name='프로그램'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='단위사업' ReferenceIdx='6' Name='단위사업'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='예산(원)' ReferenceIdx='7' Name='예산(원)' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='당월집행액(원)' ReferenceIdx='8' Name='당월집행액(원)'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='누계집행액(원)' ReferenceIdx='9' Name='누계집행액(원)' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='연도' attr='fulltext' /&gt;&lt;column name='월' attr='fulltext' /&gt;&lt;column name='회계' attr='fulltext' /&gt;&lt;column name='분야' attr='fulltext' /&gt;&lt;column name='부문' attr='fulltext' /&gt;&lt;column name='프로그램' attr='fulltext' /&gt;&lt;column name='단위사업' attr='fulltext' /&gt;&lt;column name='예산(원)' attr='fulltext' /&gt;&lt;column name='당월집행액(원)' attr='fulltext' /&gt;&lt;column name='누계집행액(원)' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="550,182" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
+            <uix:NExtractData sap2010:Annotation.AnnotationText="검증" AppendResults="False" ContinueOnError="True" DataTable="[out_dtOrigin]" DelayBefore="1" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='연도' ReferenceIdx='0' Name='연도'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='월' ReferenceIdx='1' Name='월'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='회계' ReferenceIdx='2' Name='회계' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='분야' ReferenceIdx='3' Name='분야' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='부문' ReferenceIdx='4' Name='부문' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='프로그램' ReferenceIdx='5' Name='프로그램'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='단위사업' ReferenceIdx='6' Name='단위사업'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='예산(원)' ReferenceIdx='7' Name='예산(원)' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='당월집행액(원)' ReferenceIdx='8' Name='당월집행액(원)'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='누계집행액(원)' ReferenceIdx='9' Name='누계집행액(원)' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='연도' attr='fulltext' /&gt;&lt;column name='월' attr='fulltext' /&gt;&lt;column name='회계' attr='fulltext' /&gt;&lt;column name='분야' attr='fulltext' /&gt;&lt;column name='부문' attr='fulltext' /&gt;&lt;column name='프로그램' attr='fulltext' /&gt;&lt;column name='단위사업' attr='fulltext' /&gt;&lt;column name='예산(원)' attr='fulltext' /&gt;&lt;column name='당월집행액(원)' attr='fulltext' /&gt;&lt;column name='누계집행액(원)' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="614,214" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="ec33b7a1-8c2c-45b6-8f45-351bb91f5dea" Version="V3">
               <uix:NExtractData.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="590, 530, 1341, 2860" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="6d15a258-e8ee-437c-a31e-f89e91c1eeb0" InformativeScreenshot="8b6a584e00bc6d1328543cc64fdd0cd2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='월별세출집행현황 | 세입세출예산운용상황 외교부' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
               </uix:NExtractData.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
             </uix:NExtractData>
           </Sequence>
         </ActivityAction>
@@ -426,6 +436,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="646,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Extract Data Finish. .&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="710,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Extract Data Finish. .&quot;]" />
   </Sequence>
 </Activity>

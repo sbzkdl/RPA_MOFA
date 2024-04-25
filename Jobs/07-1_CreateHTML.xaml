@@ -9,7 +9,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1205,1109</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1205,1151</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>_06_1_CreateHTML_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -120,7 +120,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_06_1_CreateHTML" sap:VirtualizedContainerService.HintSize="541,1044" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_06_1_CreateHTML" sap:VirtualizedContainerService.HintSize="541,1086" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="strHTML파일경로" />
       <Variable x:TypeArguments="x:String" Name="strDTHTML" />
@@ -154,7 +154,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="479,123" sap2010:WorkflowViewState.IdRef="Assign_3">
+    <Assign sap2010:Annotation.AnnotationText="생각해보니 css를 Config에 직접 넣을 수 없으니 String.Format에 전달해주면 되는 것이었다...!" sap:VirtualizedContainerService.HintSize="479,165" sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[strDTHTML]</OutArgument>
       </Assign.To>
@@ -164,6 +164,11 @@
 							"&lt;table class='table' style='width: 60%; border-collapse: collapse' border='1' bordercolor='black'&gt;"
 							)]</InArgument>
       </Assign.Value>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </Assign>
     <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,187" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
       <ui:MultipleAssign.AssignOperations>
